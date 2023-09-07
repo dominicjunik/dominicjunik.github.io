@@ -20,10 +20,6 @@ const Index = () => {
             <img src={headshot} alt="face" className='object-contain'/>
         </div>
        
-           
-        
-       
-        
     </div>
   )
 }
