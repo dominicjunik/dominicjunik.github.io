@@ -9,7 +9,7 @@ const Projects = () => {
         
             <h1 className='text-6xl'>Projects</h1>
             <h2 className='mb-2 sm:mb-10 text-xl'>Titles for Repo, Images for Live</h2>
-            <div className='flex flex-col w-2/3 p-2 sm:flex-row '>
+            <div className='flex flex-col p-2 sm:flex-row justify-center'>
                 <div className='mx-4 flex flex-col justify-center items-center sm:justify-start'>
                    <a href='https://github.com/dominicjunik/mod1-project' className='text-2xl hover:text-blue-400'>Memory Game</a><a href="https://dominicjunik.github.io/mod1-project/"><img src={mod1} alt="memory game" className='rounded-3xl w-48 border-2 border-transparent hover:border-blue-400'/></a> 
                 </div>
