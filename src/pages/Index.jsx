@@ -10,8 +10,8 @@ const Index = () => {
             <h1 className='text-6xl '>Dominic Junik</h1>
             <h2 className='text-2xl italic'>Junior Software Engineer</h2>
             <div className='flex'>
-                <a href="https://github.com/dominicjunik/" className='hover:text-blue-500 pr-2' title='GitHub'><GitHub/></a>
-                <a href="https://www.linkedin.com/in/dominic-junik/" className='hover:text-blue-500 pr-2' title='LinkedIn'><Linkedin/></a>
+                <a href="https://github.com/dominicjunik/" target="_blank" className='hover:text-blue-500 pr-2' title='GitHub'><GitHub/></a>
+                <a href="https://www.linkedin.com/in/dominic-junik/" target="_blank" className='hover:text-blue-500 pr-2' title='LinkedIn'><Linkedin/></a>
                 <a href={Pdf} target="_blank" className='hover:text-blue-500 pr-2' title='Resume'><FileText/></a>
             </div>
             <p className='w-full sm:w-96'>Entry level software engineer with experience in full-stack JavaScript web development. Transitioning from a long-term involvement in competitive gaming, possesses a deep passion for coding and its combination of creativity and logical analysis to solve problems.</p>
