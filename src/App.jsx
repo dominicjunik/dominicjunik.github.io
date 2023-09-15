@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className='bg-gradient-to-br from-slate-500 to-slate-700 min-h-screen text-blue-600'>
+    <div className='bg-white min-h-screen text-green-950 font-serif'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Index/>} />
