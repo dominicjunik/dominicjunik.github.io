@@ -7,7 +7,7 @@ const Navbar = () => {
   const [hamOpen, setHamOpen] = useState(false);
 
   return (
-    <nav className="w-screen bg-transparent border-b-2  shadow-2xl rounded-b-sm text-2xl font-mono">
+    <nav className="w-screen bg-transparent border-b-2 shadow-2xl rounded-b-sm text-2xl font-mono">
       <ul className="sm:flex flex-row items-center  justify-around p-1 hidden">
         <li>
           <Link to="/" className="hover:underline flex items-center group">
